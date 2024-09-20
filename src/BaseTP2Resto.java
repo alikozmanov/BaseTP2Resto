@@ -158,8 +158,9 @@ public class BaseTP2Resto {
         }
         
         // Résumé des choix
-        System.out.println("\nRésumé de la commande " + numberOfMenus);
+     
         for (int i = 0; i < numberOfMenus; i++) {
+        	System.out.println("\nRésumé de la commande " + (i + 1));
             System.out.println(entrance[i] + ", " + Dishes[i] + ", " + accompaniment[i] + ", " + drinks[i] + ", " + desserts[i]);
             System.out.println();
         }
