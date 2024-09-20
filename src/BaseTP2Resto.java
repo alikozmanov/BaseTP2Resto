@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class BaseTP2Resto {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        
+        // Initialisation
         // Demande combien de menus l'utilisateur souhaite
         System.out.print("Bonjour, combien de menus souhaitez-vous ? ");
         int numberOfMenus = scan.nextInt();
